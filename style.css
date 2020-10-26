@@ -9,12 +9,20 @@ body {
   color: white;
 }
 
-.main {
+/* .main {
   max-width: 960px;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
   text-align: center;
+} */
+
+.main{
+  /* max-width: 1080px; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .bg-img {
