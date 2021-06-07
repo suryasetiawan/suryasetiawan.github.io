@@ -1,101 +1,188 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
-      integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Surya Setiawan</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="card main" style="background-color: black">
-        <div class="card-body">
-          <div class="text-center mt-4">
-            <img src="/surya.png" class="bg-img" />
-            <!-- <h4 class="mt-5" style="color: white; font-weight: 900">
-              Surya Setiawan
-            </h4> -->
-            <p class="mr-5 ml-5 mt-4">
-              Howdy, I’m a frontend developer, who uses React Native to build
-              mobile applications and React Js to build website.
-            </p>
-
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <!-- <a class="nav-link" href="#">Github</a> -->
-                <div>
-                  <a
-                    style="color: white"
-                    href="https://www.linkedin.com/in/surya-setiawan-18b61a192"
-                  >
-                    <i class="fab fa-linkedin" style="font-size: 36px"></i>
-                  </a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <!-- <a class="nav-link" href="#">Github</a> -->
-                <div>
-                  <a
-                    style="color: white"
-                    href="https://github.com/suryasetiawan"
-                  >
-                    <i class="fab fa-github" style="font-size: 36px"></i>
-                  </a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div>
-                  <a
-                    style="color: white"
-                    href="https://medium.com/@surya.setiawan"
-                  >
-                    <i class="fab fa-medium" style="font-size: 36px"></i>
-                  </a>
-                </div>
-                <!-- <a class="nav-link" href="#">Medium</a> -->
-              </li>
-              <li class="nav-item">
-                <div>
-                  <i class="material-icons" style="font-size: 36px">email</i>
-                </div>
-                <!-- <a class="nav-link" href="#">Email</a> -->
-              </li>
-            </ul>
+      <div class="left_Side">
+        <div class="profileText">
+          <div class="imgBx">
+            <img src="surya.png" />
           </div>
+          <h2>Surya Setiawan<br /><span>Frontend Developer</span></h2>
+        </div>
+        <div class="contactInfo">
+          <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </span>
+              <span class="text">0852 6161 3136</span>
+            </li>
+            <li>
+              <span class="icon">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">suryasetiawan1991@gmail.com</span>
+            </li>
+            <li>
+              <span class="icon">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+              </span>
+              <span class="text">suryasetiawan.github.io</span>
+            </li>
+            <li>
+              <span class="icon">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </span>
+              <span class="text">www.linkedin.com/me</span>
+            </li>
+            <li>
+              <span class="icon">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </span>
+              <span class="text">Jakarta, Indonesia</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2019</h5>
+              <h4>Fullstack Developer</h4>
+              <h4>Rubicamp Coding Bootcamp</h4>
+            </li>
+            <li>
+              <h5>2010-2015</h5>
+              <h4>Bachelor Degree in Computer Engineering</h4>
+              <h4>Andalas University</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo language">
+          <h3 class="title">Languages</h3>
+          <ul>
+            <li>
+              <span class="text">Indonesia</span>
+              <span class="percent">
+                <div style="width: 90%"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">English</span>
+              <span class="percent">
+                <div style="width: 60%"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right_Side">
+        <div class="about">
+          <h2 class="title2">Profile</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            eius beatae provident eum quaerat ducimus consequatur numquam, ab
+            quos quibusdam nemo quae cupiditate dignissimos. Fugiat eaque quis
+            atque obcaecati iure.<br /><br />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Exercitationem adipisci magnam beatae ipsam iusto tempora impedit
+            numquam obcaecati provident vitae, sit, laborum cum eos praesentium
+            non, fugit voluptatibus nihil fugiat.
+          </p>
+        </div>
+        <div class="about">
+          <h2 class="title2">Experience</h2>
+          <div class="box">
+            <div class="year_company">
+              <h5>2019 - Present</h5>
+              <h5>Company Name</h5>
+            </div>
+            <div class="text">
+              <h4>Frontend Developer</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                praesentium omnis repudiandae, obcaecati distinctio dicta
+                quaerat sint odio quis consequatur aut! Laudantium
+                exercitationem nam quam aliquid cum harum sapiente delectus.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="year_company">
+              <h5>2019 - Present</h5>
+              <h5>Company Name</h5>
+            </div>
+            <div class="text">
+              <h4>Frontend Developer</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                praesentium omnis repudiandae, obcaecati distinctio dicta
+                quaerat sint odio quis consequatur aut! Laudantium
+                exercitationem nam quam aliquid cum harum sapiente delectus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about skills">
+          <h2 class="title2">Professional Skills</h2>
+          <div class="box">
+            <h4>Html</h4>
+            <div class="percent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>CSS</h4>
+            <div class="percent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Javascript</h4>
+            <div class="percent">
+              <div style="width: 82%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>React Js</h4>
+            <div class="percent">
+              <div style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>React Native</h4>
+            <div class="percent">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about interest">
+          <h2 class="title2">Interest</h2>
+          <ul>
+            <li><i class="fa fa-gamepad" aria-hidden="true"> </i>Gaming</li>
+            <li><i class="fa fa-film" aria-hidden="true"> </i>Movies</li>
+            <li><i class="fa fa-book" aria-hidden="true"> </i>Books</li>
+            <li><i class="fa fa-suitcase" aria-hidden="true"> </i>Travelling</li>
+          </ul>
         </div>
       </div>
     </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper.js -->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
-      integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Option 2: Separate Popper.js and Bootstrap JS
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
